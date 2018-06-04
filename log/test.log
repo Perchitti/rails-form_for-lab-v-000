@@ -5477,6 +5477,7 @@ Started GET "/school_classes/1/edit" for 127.0.0.1 at 2018-06-02 21:15:47 +0000
 Processing by SchoolClassesController#edit as HTML
   Parameters: {"id"=>"1"}
   [1m[35mSchoolClass Load (0.1ms)[0m  SELECT  "school_classes".* FROM "school_classes" WHERE "school_classes"."id" = ? LIMIT 1  [["id", 1]]
+<<<<<<< HEAD
   Rendered school_classes/edit.html.erb within layouts/application (2.8ms)
 Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.1ms)
 Started PATCH "/school_classes/1" for 127.0.0.1 at 2018-06-02 21:15:47 +0000
@@ -5672,3 +5673,5 @@ Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.1ms)
   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "students" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["first_name", "Daenerys"], ["last_name", "Targaryen"], ["created_at", "2018-06-02 21:15:47.468068"], ["updated_at", "2018-06-02 21:15:47.468068"]]
   [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
   [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+=======
+>>>>>>> 2e22dc76ec4fb6bed02f13f61faa220a57bedf35
